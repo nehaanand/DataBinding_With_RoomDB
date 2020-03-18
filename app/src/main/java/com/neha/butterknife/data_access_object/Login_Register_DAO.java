@@ -1,6 +1,14 @@
 package com.neha.butterknife.data_access_object;
 
 import androidx.room.Dao;
+import androidx.room.Delete;
+import androidx.room.Insert;
+import androidx.room.Query;
+import androidx.room.Update;
+
+import com.neha.butterknife.entity.Login_Register_Entity;
+
+import java.util.List;
 
 @Dao
 public interface Login_Register_DAO {

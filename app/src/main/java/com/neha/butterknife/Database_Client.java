@@ -13,7 +13,7 @@ public class Database_Client {                      //for avoiding object creati
 
     private Database_Client(Context context) {
         this.context = context;
-        room_db_obj= Room.databaseBuilder(context,Room_Database.class,"Login_Register");    //Login_Register is name of database
+        room_db_obj= Room.databaseBuilder(context,Room_Database.class,"Login_Register").build();    //Login_Register is name of database
     }
 
 
