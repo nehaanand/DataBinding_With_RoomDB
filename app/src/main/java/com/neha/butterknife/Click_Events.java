@@ -6,5 +6,9 @@ import android.widget.Toast;
 
 public interface Click_Events {
 
-    void on_Register_Button_Click();
+    void on_Save_User();
+
+    void on_Check_User();
+
+    void on_Register_Button();
 }

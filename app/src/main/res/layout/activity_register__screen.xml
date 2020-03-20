@@ -7,9 +7,9 @@
 
     <data>
 
-        <variable
-            name="login_register"
-            type="com.neha.butterknife.entity.Login_Register_Entity" />
+<!--        <variable-->
+<!--            name="login_register"-->
+<!--            type="com.neha.butterknife.entity.Login_Register_Entity" />-->
 
 
         <variable
@@ -123,7 +123,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
 
-            android:onClick="@{()->click_events.on_Register_Button_Click()}"
+            android:onClick="@{()->click_events.on_Save_User()}"
             android:text="Register"
             android:visibility="visible"
             android:clickable="true"

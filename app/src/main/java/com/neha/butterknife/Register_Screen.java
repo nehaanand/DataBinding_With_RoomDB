@@ -23,6 +23,16 @@ public class Register_Screen extends AppCompatActivity implements Click_Events {
 
 
     @Override
+    public void on_Check_User() {
+
+    }
+
+    @Override
+    public void on_Register_Button() {
+
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -32,7 +42,7 @@ public class Register_Screen extends AppCompatActivity implements Click_Events {
     }
 
     @Override
-    public void on_Register_Button_Click() {
+    public void on_Save_User() {
         Toast.makeText(Register_Screen.this, "Register clicked!  " + registerScreenBinding.etEmail.getText().toString(), Toast.LENGTH_LONG).show();
         save_user();
 

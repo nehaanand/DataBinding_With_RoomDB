@@ -16,6 +16,10 @@ public interface Login_Register_DAO {
     @Query("SELECT * FROM Login_Register_Entity")
     List<Login_Register_Entity> getAll();
 
+
+    @Query("SELECT * FROM Login_Register_Entity WHERE Email= :email AND Password= :password")
+    List<Login_Register_Entity> check_if_user_exists(String email, String password);
+
     @Insert
     void insert(Login_Register_Entity entity);
 
